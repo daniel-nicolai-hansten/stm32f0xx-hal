@@ -98,3 +98,7 @@ required-features = ["stm32f042", "rt"]
 [[example]]
 name = "usb_serial"
 required-features = ["rt", "stm32f042", "stm32-usbd"]
+
+[[example]]
+name = "i2c_slave"
+required-features = ["stm32f030x4", "rt"]
